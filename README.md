@@ -4,7 +4,7 @@
 OSTİMTECH Ar-Ge ve İnovasyon Proje Pazarı II
 
 🌐 **[adaprojectweb.netlify.app](https://adaprojectweb.netlify.app)**  
-🔬 **[Ana Repo](https://github.com/behavioral-security-analysis/Ada_Project)**
+🔬 **[Proje Reposu](https://github.com/behavioral-security-analysis/Ada_Project)**
 
 ---
 
