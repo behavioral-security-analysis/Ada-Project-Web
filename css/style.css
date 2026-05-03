@@ -783,24 +783,67 @@ h1, h2, h3, h4, p { margin: 0; }
 .footer {
   border-top: 1px solid var(--border);
   background: var(--bg-soft);
-  padding: 50px 0 40px;
+  padding: 64px 0 32px;
 }
 .footer__inner {
-  display: flex; flex-direction: column; align-items: center; gap: 14px;
-  text-align: center;
+  display: flex; flex-direction: column; gap: 48px;
+}
+.footer__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.footer__brand-block {
+  display: flex; flex-direction: column; gap: 12px;
 }
 .footer__brand {
   display: flex; align-items: center; gap: 10px;
-  font-weight: 700;
+  font-weight: 700; font-size: 18px;
 }
 .footer__tagline {
   color: var(--accent-2);
   font-style: italic;
-  font-size: 15px;
+  font-size: 14px;
+  max-width: 260px;
+  line-height: 1.5;
+}
+.footer__nav,
+.footer__team {
+  display: flex; flex-direction: column; gap: 10px;
+}
+.footer__nav-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--text-mute);
+  margin-bottom: 4px;
+}
+.footer__nav a,
+.footer__team a {
+  color: var(--text-sec);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color .2s;
+}
+.footer__nav a:hover,
+.footer__team a:hover {
+  color: var(--accent);
+}
+.footer__bottom {
+  border-top: 1px solid var(--border);
+  padding-top: 24px;
+  text-align: center;
 }
 .footer__rights {
   color: var(--text-mute);
   font-size: 13px;
+}
+@media (max-width: 768px) {
+  .footer__top {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
 }
 
 /* ---------------- Reveal animation ---------------- */

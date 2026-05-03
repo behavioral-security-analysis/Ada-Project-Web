@@ -231,7 +231,6 @@
     <section id="team" class="section section--alt reveal">
       <div class="container">
         <div class="section__head">
-          <span class="kicker" data-i18n="team.kicker">İki kişilik geliştirme ekibi</span>
           <h2 data-i18n="team.title">Ekip</h2>
           <p class="section__intro" data-i18n="team.intro">…</p>
         </div>
@@ -255,6 +254,18 @@
             <span class="contact-card__note" data-i18n="contact.repoNote">Açık kaynak, MIT lisansı planlanıyor</span>
           </a>
 
+          <a class="contact-card" href="https://azrakarakaya.vercel.app" target="_blank" rel="noopener">
+            <span class="contact-card__icon">◈</span>
+            <span class="contact-card__label" data-i18n="contact.siteLabel">Azra Karakaya</span>
+            <span class="contact-card__note" data-i18n="contact.siteNote">azrakarakaya.vercel.app</span>
+          </a>
+
+          <a class="contact-card" href="https://eminecakal.netlify.app" target="_blank" rel="noopener">
+            <span class="contact-card__icon">◈</span>
+            <span class="contact-card__label" data-i18n="contact.site2Label">Emine Çakal</span>
+            <span class="contact-card__note" data-i18n="contact.site2Note">eminecakal.netlify.app</span>
+          </a>
+
           <div class="contact-card contact-card--qr">
             <!-- QR_PLACEHOLDER: gerçek site URL'si belli olunca buraya QR görseli koy -->
             <div class="qr-box">QR</div>
@@ -276,12 +287,38 @@
   <!-- ============ FOOTER ============ -->
   <footer class="footer">
     <div class="container footer__inner">
-      <div class="footer__brand">
-        <span class="brand__mark" aria-hidden="true"></span>
-        <span class="brand__name">Ada<span class="brand__dot">.</span>Project</span>
+
+      <div class="footer__top">
+        <div class="footer__brand-block">
+          <div class="footer__brand">
+            <span class="brand__mark" aria-hidden="true"></span>
+            <span class="brand__name">Ada<span class="brand__dot">.</span>Project</span>
+          </div>
+          <p class="footer__tagline" data-i18n="footer.tagline">Olaydan sonra değil, olay anında tespit.</p>
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <span class="footer__nav-title" data-i18n="footer.navTitle">Sayfalar</span>
+          <a href="#problem" data-i18n="nav.problem">Problem</a>
+          <a href="#architecture" data-i18n="nav.architecture">Mimari</a>
+          <a href="#behaviors" data-i18n="nav.behaviors">Davranışlar</a>
+          <a href="#tech" data-i18n="nav.tech">Teknoloji</a>
+          <a href="#team" data-i18n="nav.team">Ekip</a>
+          <a href="#contact" data-i18n="nav.contact">İletişim</a>
+        </nav>
+
+        <div class="footer__team">
+          <span class="footer__nav-title" data-i18n="footer.teamTitle">Geliştirici Ekip</span>
+          <a href="https://azrakarakaya.vercel.app" target="_blank" rel="noopener">Azra Karakaya</a>
+          <a href="https://eminecakal.netlify.app" target="_blank" rel="noopener">Emine Çakal</a>
+          <a href="https://github.com/EmineCakal5/Ada-Project-Web" target="_blank" rel="noopener" data-i18n="footer.repo">GitHub Reposu</a>
+        </div>
       </div>
-      <p class="footer__tagline" data-i18n="footer.tagline">Olaydan sonra değil, olay anında tespit.</p>
-      <p class="footer__rights" data-i18n="footer.rights">© 2026 Ada Projesi — Açık kaynak güvenlik AI</p>
+
+      <div class="footer__bottom">
+        <p class="footer__rights" data-i18n="footer.rights">© 2026 Ada Projesi — Açık kaynak güvenlik AI</p>
+      </div>
+
     </div>
   </footer>
 

@@ -184,13 +184,13 @@ window.LOCALES = {
     },
     team: {
       title: "Ekip",
-      kicker: "İki kişilik geliştirme ekibi",
-      intro: "Proje, OSTİMTECH Ar-Ge ve İnovasyon Proje Pazarı II kapsamında, iki kişilik bir ekip tarafından yaklaşık 8 ayda geliştirildi.",
+      kicker: "",
+      intro: "Proje, OSTİMTECH Ar-Ge ve İnovasyon Proje Pazarı II kapsamında yaklaşık 8 ayda geliştirildi.",
       members: [
         {
           name: "Azra Karakaya",
           role: "AI / Davranış Motoru",
-          bio: "Davranış kuralları, MLP tasarımı ve ego-motion entegrasyonu.",
+          bio: "Davranış kuralları, MLP tasarımı, ego-motion entegrasyonu, VisDrone fine-tuning ve hata ayıklama.",
           github: "https://github.com/azrakarakaya1"
         },
         {
@@ -207,12 +207,19 @@ window.LOCALES = {
       intro: "Pilot uygulama, akademik iş birliği veya kurumsal entegrasyon için bizimle iletişime geçin. Stantımızda da bekleriz.",
       repoLabel: "GitHub Reposu",
       repoNote: "Açık kaynak, MIT lisansı planlanıyor",
+      siteLabel: "Azra Karakaya",
+      siteNote: "azrakarakaya.vercel.app",
+      site2Label: "Emine Çakal",
+      site2Note: "eminecakal.netlify.app",
       qrLabel: "QR ile hızlı erişim",
       qrNote: "Bu sayfayı telefonunuzdan açın",
       stand: "Stant No: —"
     },
     footer: {
       tagline: "Olaydan sonra değil, olay anında tespit.",
+      navTitle: "Sayfalar",
+      teamTitle: "Geliştirici Ekip",
+      repo: "GitHub Reposu",
       rights: "© 2026 Ada Projesi — Açık kaynak güvenlik AI"
     }
   },
@@ -402,13 +409,13 @@ window.LOCALES = {
     },
     team: {
       title: "Team",
-      kicker: "A two-person engineering team",
-      intro: "Developed within OSTİMTECH R&D and Innovation Project Bazaar II by a two-person team over roughly 8 months.",
+      kicker: "",
+      intro: "Developed within OSTİMTECH R&D and Innovation Project Bazaar II over roughly 8 months.",
       members: [
         {
           name: "Azra Karakaya",
           role: "AI / Behavior Engine",
-          bio: "Behavior rules, MLP design and ego-motion integration.",
+          bio: "VisDrone fine-tuning, reconnaissance & coordinated movement detectors, threat vector expansion (8→10 dims), MLP architecture and debugging.",
           github: "https://github.com/azrakarakaya1"
         },
         {
@@ -425,12 +432,19 @@ window.LOCALES = {
       intro: "Reach out for pilot deployments, academic collaboration or enterprise integration. Drop by our booth too.",
       repoLabel: "GitHub Repository",
       repoNote: "Open source, MIT license planned",
+      siteLabel: "Azra Karakaya",
+      siteNote: "azrakarakaya.vercel.app",
+      site2Label: "Emine Çakal",
+      site2Note: "eminecakal.netlify.app",
       qrLabel: "Quick access via QR",
       qrNote: "Open this page on your phone",
       stand: "Booth No: —"
     },
     footer: {
       tagline: "Detection during the event, not after.",
+      navTitle: "Pages",
+      teamTitle: "Engineering Team",
+      repo: "GitHub Repository",
       rights: "© 2026 Ada Project — Open-source security AI"
     }
   }
